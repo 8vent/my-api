@@ -24,6 +24,6 @@ class Unit extends TestCase
 
 		$this->gumballinstance->turnWheel();
 
-		$this->assertEquals(90, $this->gumballinstance->getBalls());
+		$this->assertEquals(99, $this->gumballinstance->getBalls());
 	}
 }
